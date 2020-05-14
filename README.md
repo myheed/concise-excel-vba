@@ -324,7 +324,7 @@ End If
 ```vba
 Dim Length As Integer
 Length = 10
-Select Length
+Select Case Length
     Case Is >= 8
         操作1  ' 执行这一步
     Case Is > 20
